@@ -67,7 +67,7 @@ text-decoration:none;
 /*seccion I N I C I O */
 
 .inicio{
-    background: linear-gradient(to top,rgba(30,35,38,.8), rgba(30,35,38,.1)), url(/images/fondo.jpg);
+    background: linear-gradient(to top,rgba(30,35,38,.8), rgba(30,35,38,.1)), url(images/fondo.jpg);
     background-size: cover;
     height: 100vh;
     color: #ffffff;
