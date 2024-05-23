@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--MENU ENCABEZADO-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">DGT</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio">INICIO</a></li>
+                    <li><a href="#sobremi">Sobre mi</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="nav-responsive">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+    <!--SECCION INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="/images/home-picture.jpg" alt="home-picture">
+            </div>
+            <h1>DIEGO GUZMAN</h1>
+            <h2>Estudiante de ingeniería de sistemas e informática - Practicante de programación</h2>
+
+            <div class="redes">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2> Sobre mi </h2>
+            <p> <span>Hola, soy Diego Guzman Tapayuri</span> creo firmemente en el aprendizaje continuo y en la mejora constante. Como programador junior, estoy siempre en busca de nuevas tecnologías y mejores prácticas que puedan mejorar mi trabajo y aportar más valor a los proyectos en los que participo.</p>
+        </div>
+        <div class="fila">
+            <!-- datos personales -->
+            <div class="col">
+                <h3>Datos Personales</h3>
+                <ul>
+                    <li>
+                        <strong>Fecha de Nacimiento</strong>
+                        03 de abril
+                    </li>
+                    <li>
+                        <strong>Teléfono</strong>
+                        933440872
+                    </li>
+                    <li>
+                        <strong>Email</strong>
+                        guzman.tapayuri.diego@gmail.com
+                    </li>
+                    <li>
+                        <strong>Dirección</strong>
+                        Calle la Paz Mz K lt 4 - San Juan Bautista
+                    </li>
+                    <li>
+                        <strong>Cargo</strong>
+                        <span>PRACTICANTE</span>
+                    </li>
+                </ul>
+
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="sobreponer"></span>
+            </button>
+    </SEction>
+
+<!-- S E C C I O N S K I L L S -->
+<SEction class="skills" id="skills">
+    
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="filas">
+                <!-- Technical Skill -->
+                <div class="colum">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>25%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>26%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>42%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Professional Skills -->
+            <div class="colum">
+                <h3>Professional Skills</h3>
+                <div class="skill">
+                    <span>Comunicación</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Trabajo en Equipo</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Creatividad</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>99%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>                  
+</SEction>
+
+<section id="contacto" class="contacto">
+    <div class="contenido-seccion">
+        <h2>CONTACTO</h2>
+        <div class="fila">
+            <!-- Formulario -->
+            <div class="col">
+                <input type="text" placeholder="Tú Nombre">
+                <input type="text" placeholder="Número telefónico">
+                <input type="text" placeholder="Dirección de correo">
+                <input type="text" placeholder="Tema">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <button>
+                    Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                    <span class="overlay"></span>
+                </button>
+            </div>
+            <!-- Mapa -->
+            <div class="col">
+                <img src="images/ubi.png" alt="">
+                <div class="info">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Dirección: Calle la Paz Mz K lt 4 - San Juan Bautista
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-mobile-screen"></i>
+                            Teléfono: 933440872 
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            Email: guzman.tapayuri.diego@gmail
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+    <script src="scrip.js"></script>
+</body>
+</html>
